@@ -592,6 +592,8 @@ namespace demoAsp2.Controllers
             sobanghiParameter).ToList();
 
             var sobanghiValue = (int)sobanghiParameter.Value;
+
+
             return Ok(result2);
 
 
